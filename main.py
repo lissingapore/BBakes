@@ -11,8 +11,6 @@ import os
 import psycopg2.extensions
 
 
-
-
 app = Flask(__name__)
 
 class Base(DeclarativeBase):
